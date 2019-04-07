@@ -1,0 +1,87 @@
+body {
+  font-family: Palatino;
+  background-color: #F0F2F2;
+}
+
+#to-do-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 8px;
+  border: #0d0d4aa3 5px 5px solid;
+  /* box-sizing: border-box;
+  width     : 150px;
+  height    : 150px;
+  padding   : 80px 1em 0 1em;
+  margin    : 0 100px;
+  position: relative;
+  background-color: #A4C9CF;
+  border-radius: 100% 100% 0 0; */
+}
+
+/* #to-do-list::before,
+#to-do-list::after {
+  content: '';
+  position:absolute;
+  bottom: 0;
+  z-index: -1;
+  background-color: #A4C9CF;
+  border-radius: 100%;
+}
+
+#to-do-list::before {
+  width: 125px;
+  height: 125px;
+  left: -80px;
+  border-bottom-right-radius: 0;
+}
+
+#to-do-list::after {
+  width: 100px;
+  height: 100px;
+  right: -60px;
+  border-bottom-left-radius: 0;
+} */
+
+#new-item-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+#form-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#save {
+  width: 10%;
+}
+
+.delete-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  background-color: #a0b0b7;
+  color: #19646d;
+  padding: 1em;
+}
+
+input, select {
+  margin: 10px;
+}
